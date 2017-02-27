@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 
-import { AUTH_PROVIDERS } from 'angular2-jwt';
+// import { AUTH_PROVIDERS } from 'angular2-jwt';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
@@ -25,7 +25,7 @@ import { Auth } from './auth.service'
     ],
     providers: [
         appRoutingProviders,
-        AUTH_PROVIDERS,
+        // AUTH_PROVIDERS,
         Auth
     ],
     imports: [
